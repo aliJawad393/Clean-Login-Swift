@@ -13,7 +13,7 @@
 		F183077E24711B290000BEC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F183077C24711B290000BEC4 /* Main.storyboard */; };
 		F183078024711B2E0000BEC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F183077F24711B2E0000BEC4 /* Assets.xcassets */; };
 		F183078324711B2E0000BEC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F183078124711B2E0000BEC4 /* LaunchScreen.storyboard */; };
-		F183078E24711B2F0000BEC4 /* Clean_LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F183078D24711B2F0000BEC4 /* Clean_LoginTests.swift */; };
+		F183078E24711B2F0000BEC4 /* LoginInputUserNameLengthValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F183078D24711B2F0000BEC4 /* LoginInputUserNameLengthValidatorTests.swift */; };
 		F183079924711B2F0000BEC4 /* Clean_LoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F183079824711B2F0000BEC4 /* Clean_LoginUITests.swift */; };
 		F18307A7247121300000BEC4 /* ViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18307A6247121300000BEC4 /* ViewControllerFactory.swift */; };
 		F18307AC247126C10000BEC4 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18307AB247126C10000BEC4 /* Router.swift */; };
@@ -77,7 +77,7 @@
 		F183078224711B2E0000BEC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F183078424711B2E0000BEC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F183078924711B2F0000BEC4 /* Clean LoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clean LoginTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F183078D24711B2F0000BEC4 /* Clean_LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clean_LoginTests.swift; sourceTree = "<group>"; };
+		F183078D24711B2F0000BEC4 /* LoginInputUserNameLengthValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInputUserNameLengthValidatorTests.swift; sourceTree = "<group>"; };
 		F183078F24711B2F0000BEC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F183079424711B2F0000BEC4 /* Clean LoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clean LoginUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F183079824711B2F0000BEC4 /* Clean_LoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clean_LoginUITests.swift; sourceTree = "<group>"; };
@@ -162,7 +162,7 @@
 		F183078C24711B2F0000BEC4 /* Clean LoginTests */ = {
 			isa = PBXGroup;
 			children = (
-				F183078D24711B2F0000BEC4 /* Clean_LoginTests.swift */,
+				F183078D24711B2F0000BEC4 /* LoginInputUserNameLengthValidatorTests.swift */,
 				F183078F24711B2F0000BEC4 /* Info.plist */,
 			);
 			path = "Clean LoginTests";
@@ -427,7 +427,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F183078E24711B2F0000BEC4 /* Clean_LoginTests.swift in Sources */,
+				F183078E24711B2F0000BEC4 /* LoginInputUserNameLengthValidatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
