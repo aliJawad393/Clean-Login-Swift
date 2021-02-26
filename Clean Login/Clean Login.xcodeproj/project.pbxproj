@@ -10,7 +10,6 @@
 		F183077724711B290000BEC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F183077624711B290000BEC4 /* AppDelegate.swift */; };
 		F183077924711B290000BEC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F183077824711B290000BEC4 /* SceneDelegate.swift */; };
 		F183077B24711B290000BEC4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F183077A24711B290000BEC4 /* LoginViewController.swift */; };
-		F183077E24711B290000BEC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F183077C24711B290000BEC4 /* Main.storyboard */; };
 		F183078024711B2E0000BEC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F183077F24711B2E0000BEC4 /* Assets.xcassets */; };
 		F183078324711B2E0000BEC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F183078124711B2E0000BEC4 /* LaunchScreen.storyboard */; };
 		F183078E24711B2F0000BEC4 /* LoginInputUserNameLengthValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F183078D24711B2F0000BEC4 /* LoginInputUserNameLengthValidatorTests.swift */; };
@@ -24,6 +23,7 @@
 		F18307B824712DE00000BEC4 /* LoginInputPasswordLengthValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18307B724712DE00000BEC4 /* LoginInputPasswordLengthValidator.swift */; };
 		F18307BB24712FD50000BEC4 /* NetworkServiceExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18307BA24712FD50000BEC4 /* NetworkServiceExecutor.swift */; };
 		F18307C8247132410000BEC4 /* DataModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18307C22471322F0000BEC4 /* DataModel.framework */; };
+		F192CDD325E912A600DB777E /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F192CDD225E912A600DB777E /* UIFontExtension.swift */; };
 		F1F2885D247152DC0049055D /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F2885C247152DC0049055D /* UIViewControllerExtension.swift */; };
 		F1F2885F247154A20049055D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F2885E247154A20049055D /* HomeViewController.swift */; };
 		F1F28861247161590049055D /* LoginInputEmailFormatValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F28860247161590049055D /* LoginInputEmailFormatValidator.swift */; };
@@ -72,7 +72,6 @@
 		F183077624711B290000BEC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F183077824711B290000BEC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F183077A24711B290000BEC4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		F183077D24711B290000BEC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F183077F24711B2E0000BEC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F183078224711B2E0000BEC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F183078424711B2E0000BEC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -91,6 +90,7 @@
 		F18307B724712DE00000BEC4 /* LoginInputPasswordLengthValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInputPasswordLengthValidator.swift; sourceTree = "<group>"; };
 		F18307BA24712FD50000BEC4 /* NetworkServiceExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceExecutor.swift; sourceTree = "<group>"; };
 		F18307BC2471322F0000BEC4 /* DataModel.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DataModel.xcodeproj; path = DataModel/DataModel.xcodeproj; sourceTree = "<group>"; };
+		F192CDD225E912A600DB777E /* UIFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
 		F1F2885C247152DC0049055D /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		F1F2885E247154A20049055D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F1F28860247161590049055D /* LoginInputEmailFormatValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInputEmailFormatValidator.swift; sourceTree = "<group>"; };
@@ -201,7 +201,6 @@
 			children = (
 				F183077624711B290000BEC4 /* AppDelegate.swift */,
 				F183077824711B290000BEC4 /* SceneDelegate.swift */,
-				F183077C24711B290000BEC4 /* Main.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -247,6 +246,7 @@
 			isa = PBXGroup;
 			children = (
 				F1F2885C247152DC0049055D /* UIViewControllerExtension.swift */,
+				F192CDD225E912A600DB777E /* UIFontExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -381,7 +381,6 @@
 			files = (
 				F183078324711B2E0000BEC4 /* LaunchScreen.storyboard in Resources */,
 				F183078024711B2E0000BEC4 /* Assets.xcassets in Resources */,
-				F183077E24711B290000BEC4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +406,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F183077B24711B290000BEC4 /* LoginViewController.swift in Sources */,
+				F192CDD325E912A600DB777E /* UIFontExtension.swift in Sources */,
 				F18307A7247121300000BEC4 /* ViewControllerFactory.swift in Sources */,
 				F18307B224712CFA0000BEC4 /* LoginInputValidatorProtocol.swift in Sources */,
 				F18307AC247126C10000BEC4 /* Router.swift in Sources */,
@@ -460,14 +460,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F183077C24711B290000BEC4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F183077D24711B290000BEC4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F183078124711B2E0000BEC4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
