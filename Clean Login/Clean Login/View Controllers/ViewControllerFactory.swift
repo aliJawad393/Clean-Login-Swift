@@ -13,23 +13,14 @@ protocol ViewControllerFactory {
     
     func loginViewController(loginAction:@escaping(String, String) ->Void) -> UIViewController?
     func homeViewController() -> UIViewController?
-     
 }
-
 
 class CleanLoginViewControllerFactory: ViewControllerFactory {
     func loginViewController(loginAction:@escaping(String, String) ->Void) -> UIViewController? {
-        let viewController: LoginViewController? = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "LoginViewController") as? LoginViewController
-        
-        viewController?.loginAction = loginAction
-        return viewController
-        
+        return LoginViewController(loginAction: loginAction)
     }
-    
     
     func homeViewController() -> UIViewController? {
-        let homeViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "HomeViewController") as? HomeViewController
-        return homeViewController
+        return HomeViewController()
     }
-
 }
